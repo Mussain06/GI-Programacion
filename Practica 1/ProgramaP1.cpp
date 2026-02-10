@@ -27,7 +27,7 @@ int mayorDeCuatro(int x1, int x2, int x3, int x4)
     }
     else
     {
-        mayor1 = x3;
+        mayor1 = x2;
     }
     if (x3 > x4)
     {
@@ -35,15 +35,15 @@ int mayorDeCuatro(int x1, int x2, int x3, int x4)
     }
     else
     {
-        mayor2 = x2;
+        mayor2 = x4;
     }
     if (mayor1 > mayor2)
     {
-        mayor = mayor2;
+        mayor = mayor1;
     }
     else
     {
-        mayor = mayor1;
+        mayor = mayor2;
     }
     return mayor;
 }
