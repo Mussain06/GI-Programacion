@@ -6,5 +6,6 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Practica_1
-        ProgramaP1.cpp
-        ProgramaP1.h)
+        ProgramaP1.h
+        ProgramaP1Esq.cpp
+)
