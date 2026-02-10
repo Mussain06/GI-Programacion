@@ -11,6 +11,7 @@ int mayorDeCuatro(int, int, int, int);
 int main()
 {
     int a=10, b=5, c=15, d=21;
+    cin>>a>>b>>c>>d;
     int mayor = mayorDeCuatro(a,b,c,d);
     cout << "El mayor elemento entre "<<a<<", "<<b <<", "<<c<<" y "<<d << " es " << mayor<<endl;
     return 0;
